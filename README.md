@@ -1,9 +1,11 @@
 1. Class Data
 Fungsi: Untuk merepresentasikan objek mahasiswa.
 Attribute:
-o	nama: Menyimpan nama mahasiswa.
+onama: Menyimpan nama mahasiswa.
+
 o	nim: Menyimpan NIM (Nomor Induk Mahasiswa) mahasiswa.
 Constructor (init): Diinisialisasi dengan atribut nama dan nim.
+
 
 Contoh:
 mahasiswa = Data("Nadia", "312410258")
@@ -11,6 +13,7 @@ mahasiswa = Data("Nadia", "312410258")
 
 2.	 Class View
 Fungsi: Bertanggung jawab untuk menampilkan data mahasiswa dalam bentuk tabel.
+
 Method:
 o	tampilkan_data: Fungsi statis yang menerima daftar objek mahasiswa dan mencetak data mereka dalam format tabel.
 
@@ -24,6 +27,7 @@ NIM                Nama
 Fungsi: Mengelola input data dari pengguna.
 Method:
 o	input_data: Fungsi untuk menerima input nama dan NIM mahasiswa dari pengguna, memvalidasi input, dan menyimpan objek mahasiswa ke dalam list (mahasiswa_list).
+
 Validasi:
 o	NIM harus berupa angka.
 o	Nama tidak boleh kosong.
@@ -31,9 +35,9 @@ o	Nama tidak boleh kosong.
 o	Program terus menerima input hingga pengguna mengetikkan "exit".
 
 Proses:
-	Meminta NIM: Jika NIM bukan angka, muncul pesan error.
-	Meminta Nama: Jika nama kosong, muncul pesan error.
-	Jika valid, data dimasukkan ke dalam list mahasiswa_list.
+o	Meminta NIM: Jika NIM bukan angka, muncul pesan error.
+o	Meminta Nama: Jika nama kosong, muncul pesan error.
+o	Jika valid, data dimasukkan ke dalam list mahasiswa_list.
 
 
 4.	 Fungsi main()
