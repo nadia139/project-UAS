@@ -1,3 +1,5 @@
+PENJELASAN:
+
 1. Class Data
 Fungsi: Untuk merepresentasikan objek mahasiswa.
 Attribute:
