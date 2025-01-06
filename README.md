@@ -50,6 +50,7 @@ Memanggil fungsi main() untuk menjalankan program.
  *Contoh Jalannya Program:
 
 INPUT
+
 ![Screenshot 2025-01-06 094200](https://github.com/user-attachments/assets/e09b083b-2211-4c01-958b-d02ef89aa8db)
 
 
@@ -58,7 +59,13 @@ INPUT
 
 
 
+
+
+
+
+
 OUTPUT
+
 ![Screenshot 2025-01-06 094211](https://github.com/user-attachments/assets/afba33eb-480f-4bba-83bf-3513e19b0bb8)
 
 
