@@ -14,7 +14,7 @@ Fungsi: Bertanggung jawab untuk menampilkan data mahasiswa dalam bentuk tabel.
 Method:
 o	tampilkan_data: Fungsi statis yang menerima daftar objek mahasiswa dan mencetak data mereka dalam format tabel.
 
-Format tampilan:
+Tampilan Format:
 NIM                Nama                
 ======================
 312410258       Nadia
@@ -25,8 +25,8 @@ Fungsi: Mengelola input data dari pengguna.
 Method:
 o	input_data: Fungsi untuk menerima input nama dan NIM mahasiswa dari pengguna, memvalidasi input, dan menyimpan objek mahasiswa ke dalam list (mahasiswa_list).
 Validasi:
-	NIM harus berupa angka.
-	Nama tidak boleh kosong.
+o	NIM harus berupa angka.
+o	Nama tidak boleh kosong.
 
 o	Program terus menerima input hingga pengguna mengetikkan "exit".
 
